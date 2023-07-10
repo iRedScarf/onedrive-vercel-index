@@ -6,7 +6,7 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 
 module.exports = withBundleAnalyzer({
   env: {
-    USER_PRINCIPLE_NAME: process.env.USER_PRINCIPLE_NAME,
+    USER_PRINCIPAL_NAME: process.env.USER_PRINCIPAL_NAME,
     SITE_TITLE: process.env.SITE_TITLE,
     BASE_DIRECTORY: process.env.BASE_DIRECTORY,
     EMAIL: process.env.EMAIL
